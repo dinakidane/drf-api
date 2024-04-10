@@ -34,9 +34,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$a)nsioq@wami^=7mn$w*^&dcew81rryh0e6(b8yp*!cqm^y)0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-dinakidane-drfapi-agol6v8i2lo.ws-eu110.gitpod.io']
+ALLOWED_HOSTS = ['8000-dinakidane-drfapi-gh0vl7vhzzd.ws-eu110.gitpod.io']
 
 
 # Application definition
@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'cloudinary',
+    'rest_framework',
+    'django_filters',
 
     'profiles',
     'followers',

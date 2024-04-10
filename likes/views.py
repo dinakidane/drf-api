@@ -1,7 +1,7 @@
 from rest_framework import generics, permissions
 from drf_api.permissions import IsOwnerOrReadOnly
-from likes.model import Like
-from likes.serializer import LikeSerializer
+from likes.models import Like
+from likes.serializers import LikeSerializer
 
 class LikeList(generics.ListCreateAPIView):
     serializers_class = LikeSerializer
