@@ -95,7 +95,8 @@ INSTALLED_APPS = [
     'followers',
 ]
 
-SIDE_ID = 1
+SITE_ID = 1
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
